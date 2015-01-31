@@ -3,7 +3,7 @@ lock '3.3.5'
 
 require "capistrano/bundler"
 require "capistrano/rails"
-require "capistrano/rvm"
+# require "capistrano/rvm"
 set :rvm_type, :user
 set :rvm_ruby_version, "2.1.5p27"
 
