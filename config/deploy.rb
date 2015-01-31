@@ -5,7 +5,7 @@ require "capistrano/bundler"
 require "capistrano/rails"
 # require "capistrano/rvm"
 set :rvm_type, :user
-set :rvm_ruby_version, "2.1.5p273"
+set :rvm_ruby_string, "ruby-2.1.5p273"
 
 
 set :application, "redmine"
