@@ -43,3 +43,9 @@ server '127.0.0.1', user: 'deploy', roles: %w{web app}, port: 2222
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+set :ssh_options, {
+  # keys: %w(/home/rlisowski/.ssh/id_rsa),
+  forward_agent: true,
+  port: 2222
+  # auth_methods: %w(password)
+}
