@@ -37,6 +37,6 @@
 *.rbc
 
 /.bundle
-/Gemfile.lock
-/Gemfile.local
-
+Gemfile.lock
+Gemfile.local
+.versions.conf
