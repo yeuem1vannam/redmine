@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.3.5'
 
-require "capistrano/bundler"
-require "capistrano/rails"
+# require "capistrano/bundler"
+# require "capistrano/rails"
 # require "capistrano/rvm"
 set :rvm_type, :user
 set :rvm_ruby_string, "ruby-2.1.5p273"
